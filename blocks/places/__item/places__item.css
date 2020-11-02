@@ -1,0 +1,13 @@
+.places__item {
+    margin-top: 85px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: min-content 460px;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+.places__item:nth-of-type(1) {
+    margin: 0;
+}

@@ -1,0 +1,7 @@
+.lead {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

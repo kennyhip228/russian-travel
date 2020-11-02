@@ -1,0 +1,16 @@
+.places__link {
+    margin: 0;
+    color: white;
+    display: flex;
+    align-self: flex-start;
+    text-decoration-line: none;
+    border-bottom: 1px solid white;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.places__link:hover {
+    transition: opacity 0.3s linear;
+    opacity: 0.8;
+}

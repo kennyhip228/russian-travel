@@ -1,0 +1,10 @@
+@media screen and (max-width: 1280px) {
+   .box {
+        width: 984px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .box {
+        width: 928px;
+    }
+}
