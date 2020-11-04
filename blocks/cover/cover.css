@@ -1,5 +1,19 @@
 .cover {
     width: 100%;
-    padding-top: 92px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 720px) {
+    .cover {
+        padding-top: 92px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .cover {
+        padding-top: 66px;
+    }
 }

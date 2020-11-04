@@ -1,6 +1,34 @@
 .places {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 92px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        min-width: 984px;
+        padding-top: 92px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        min-width: 928px;
+        padding-top: 92px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        width: 720px;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .places {
+        padding-top: 64px;
+        width: 320px;
+    }
 }
