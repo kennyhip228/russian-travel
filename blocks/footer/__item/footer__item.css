@@ -1,0 +1,26 @@
+.footer__item {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer__item:hover {
+    transition: opacity 0.3s linear;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 720px) {
+    .footer__item {
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 18px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__item {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+}
